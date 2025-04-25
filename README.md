@@ -1,31 +1,20 @@
-# 🧢 Props Sports Dashboard
+# 📊 Props Sports Dashboard
 
-A dual-sport (MLB + NBA) player stat dashboard inspired by Props.Cash. Built with Streamlit, this app supports:
-- Daily Statcast analysis for MLB players
-- NBA player game logs with trend visualization
-- Downloadable CSVs
-- Filterable player and prop stats
+A dual-sport (MLB + NBA) props dashboard inspired by Props.Cash — with login, paid subscription control, streaks, hit rate analysis, and visualizations.
 
-## ⚙️ How to Run Locally
+## Features
+- 🔐 Secure login (demo / password123)
+- 🧾 Paid subscription control (only paid users can download or access premium features)
+- ⚾ MLB Statcast analytics with barrel/total bases tracking
+- 🏀 NBA player game logs with prop tracking
+- Color-coded hit rates, streaks, and average difference from line
+
+## How to Run
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 🚀 Deployment
-
-Push this to GitHub and deploy instantly on [Streamlit Cloud](https://streamlit.io/cloud). Set `app.py` as the entry point.
-
-## 📊 Features
-- Tabs for MLB & NBA stats
-- Player lookup and filtering
-- Pitch velocity, launch angles, barrels
-- Points/Assists trends (NBA)
-- Betting props mock preview
-
-## 📁 Included Files
-- `app.py` - Main Streamlit application
-- `mock_betting_props.csv` - Example betting props
-- `requirements.txt` - Python dependencies
-- `README.md` - Project overview
+## Deploy
+Deploy to [Streamlit Cloud](https://streamlit.io/cloud) — upload `config.yaml` and `paid_users.json` as secret files if needed.

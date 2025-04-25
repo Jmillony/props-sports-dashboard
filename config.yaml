@@ -1,0 +1,13 @@
+credentials:
+  names:
+    demo: Demo User
+  usernames:
+    demo: demo
+  passwords:
+    demo: '$2b$12$CwTycUXWue0Thq9StjUM0uJ8F7qYyD9rMeR4XMPNskhPVIEYynZQS'
+cookie:
+  name: props_dashboard_cookie
+  key: randomkey123
+  expiry_days: 7
+preauthorized:
+  emails: []
